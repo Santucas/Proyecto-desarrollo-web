@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 /* NORMALIZED STYLES */
 * {
@@ -32,16 +33,17 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2.5rem;
 }
 .header__logo {
     width: 66.6%;
 }
 .header__logo img {
-    max-width: 95px;
+    max-width: 200px;
+    /* width: 25%; */
 }
 .header__nav {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
     width: 33.3%;
 }
 .header__nav ul{
@@ -51,6 +53,12 @@ ul {
 }
 .header__nav ul li a {
     color: white;
+    border-bottom: 2px solid #4D3B5B;
+    transition: all .4s;
+}
+.header__nav ul li a:hover {
+    color: #EAD9E1;
+    border-bottom-color: #EAD9E1;
 }
 
 
@@ -73,6 +81,10 @@ footer {
 }
 .upArrow {
     width: 10rem;
+    animation-name: rightSpin;
+    animation-duration: 6s;
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    animation-iteration-count: infinite;
 }
 .upArrow a img {
     width: 100%;
@@ -102,6 +114,7 @@ footer {
 .home__text p {
     font-family: 'Roboto Flex', sans-serif;
     text-align: center;
+    color: rgb(14, 14, 14);
 }
 .tips {
     display: flex;
@@ -197,6 +210,10 @@ footer {
     object-fit: cover;
     background-color: rgba(37, 37, 37, .5);
     padding: .6rem;
+    transition: all.6s;
+}
+.gallery__image:hover {
+    transform: scale(1.1);
 }
 
 
@@ -214,14 +231,25 @@ footer {
     display: inline-block;
 }
 
+/* ANIMATIONS */
+@keyframes rightSpin {
+    0% {transform: rotateZ(0deg);}
+    50% {transform: rotate(360deg);}
+    100% {transform: rotate(360deg);}
+
+}
+
 /* RESPONSIVE MOBILE HORIZONTAL */
 @media screen and (max-width:599px) {
     /* HEADER */
+    .header {
+        padding: 1rem;
+    }
     .header__logo {
         width: 40%;
     }
     .header__logo img {
-        width: 50px;
+        width: 100px;
     }
     .header__nav {
         width: 40%;
