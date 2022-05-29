@@ -154,7 +154,9 @@ footer {
 }
 
 /* PRODUCTS STYLES */
-
+.products__articles img {
+    width: 30rem;
+}
 /* SERVICES STYLES */
 .services {
     margin: 100px 0px 100px;
