@@ -50,6 +50,8 @@ ul {
     display: flex;
     justify-content: space-evenly;
     font-size: 1.4em;
+    padding-left: 0rem;
+    margin-bottom: 0rem;
 }
 .header__nav ul li a {
     color: white;
@@ -220,18 +222,7 @@ footer {
 
 
 /* CONTACT STYLES */
-.contact__header {
-    background-color: #8F2D56;
-    margin: 50px 0px 50px 0px;
-    padding: 50px 0px 50px 0px;
-    text-align: center;
-}
-.contact__text {
-    display: inline-block;
-}
-.contact__form{
-    display: inline-block;
-}
+
 
 /* ANIMATIONS */
 @keyframes rightSpin {
