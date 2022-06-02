@@ -108,33 +108,22 @@ footer {
     flex-direction: column;
     gap: 20rem;
 }
-.home__text{
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    margin: 0rem 15rem 0rem 15rem;
-    padding: 5rem;
+.home__text {
     background-color: rgba(143, 45, 86, 1 );
-    border-radius: 2rem;
-    font-size: 2em;
 }
 .home__text h1 {
     font-family: 'Roboto Flex', sans-serif;
-    text-align: center;
-    text-decoration-line: underline;
-    font-size: 1.5em;
     margin: 0;
     font-weight: 700;
     color: black;
     line-height: normal;
-}
+} 
 .home__text p {
     font-family: 'Roboto Flex', sans-serif;
-    text-align: center;
     color: rgb(14, 14, 14);
     line-height: normal;
     margin: 0;
-}
+} 
 .tips {
     display: flex;
     flex-direction: column;
