@@ -37,49 +37,50 @@
     </header>
 <!--header end-->
 <!--main start-->
-    <main class="container">
-        <header class="contact__header text-center">
-            <p>let's chat</p>
-            <h1>contact us</h1>
-        </header>
-        <section class="contact__text">
-            <h2>let's get you booked</h2>
-            <p>Getting in touch is easy, fill out the <br>
-                form and we’ll get back to you <br>
-                as soon as possible! <br>
-                <br>
-                You can also call 11-1111-1111
-                or email example@gmail.com </p>
-            <p>have a question? let us know!</p>
+    <header class="contact__header text-center d-flex flex-column align-items-center justify-content-center ">
+        <p class="fs-2">Let's chat</p>
+        <h1 class="h1">Contact us</h1>
+    </header>
+    <main class="container ">
+        <section class="d-md-flex flex-row  justify-content-between  align-items-stretch">
+            <section class="contact__text p-4">
+                <h2 class="h2 fs-1 fw-bold">Let's get you booked</h2>
+                <p class="fs-2">Getting in touch is easy, fill out the <br>
+                    form and we’ll get back to you <br>
+                    as soon as possible!</p> 
+                <p class="lead fs-2">You can also call 11-1111-1111
+                    or email example@gmail.com <br>
+                    Have any question? Let us know!</p>
+            </section>
+            <article class="p-4">
+                <form class="row g-5" action= method="post">
+                    <div class="col-md-6">
+                        <label class="fs-3 fw-semibold" for="name">Name:</label>
+                        <input type="text" class="form-control form-control-lg" name="name" placeholder="Thomas">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="fs-3 fw-semibold" for="surname">Surname</label>
+                        <input type="text" class="form-control form-control-lg" name="surname" placeholder="Williams">
+                    </div>
+                    <div>
+                        <label class="fs-3 fw-semibold" for="email">Email adress:</label>
+                        <input type="email" class="form-control form-control-lg" name="email"  placeholder="example123@gmail.com">
+                    </div>
+                    <div>
+                        <label class="fs-3 fw-semibold" for="phone_number">Phone number:</label>
+                        <input type="text" class="form-control form-control-lg" name="phone_number" placeholder="11-1111-1111">
+                    </div>
+                    <div>
+                        <label class="fs-3 fw-semibold" for="enquiry">Write your enquiry:</label>
+                        <textarea class="form-control" name="enquiry"  rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button type="reset" class="btn btn-dark btn-lg col-md-1">Reset</button>
+                        <button type="submit" class="btn btn-dark btn-lg col-md-1">Submit</button>
+                    </div>
+                </form> 
+            </article>
         </section>
-        <article class="p-4">
-            <form class="row g-5" action= method="post">
-                <div class="col-md-6">
-                    <label class="fs-3 fw-semibold" for="name">name:</label>
-                    <input type="text" class="form-control form-control-lg" name="name" placeholder="Thomas">
-                </div>
-                <div class="col-md-6">
-                    <label class="fs-3 fw-semibold" for="surname">surname</label>
-                    <input type="text" class="form-control form-control-lg" name="surname" placeholder="Williams">
-                </div>
-                <div>
-                    <label class="fs-3 fw-semibold" for="email">email adress:</label>
-                    <input type="email" class="form-control form-control-lg" name="email"  placeholder="example123@gmail.com">
-                </div>
-                <div>
-                    <label class="fs-3 fw-semibold" for="phone_number">phone number:</label>
-                    <input type="text" class="form-control form-control-lg" name="phone_number" placeholder="11-1111-1111">
-                </div>
-                <div>
-                    <label class="fs-3 fw-semibold" for="enquiry">write your enquiry:</label>
-                    <textarea class="form-control" name="enquiry"  rows="10"></textarea>
-                </div>
-                <div>
-                    <button type="reset" class="btn btn-dark btn-lg col-md-1">Reset</button>
-                    <button type="submit" class="btn btn-dark btn-lg col-md-1">Submit</button>
-                </div>
-            </form> 
-        </article>
     </main>
 <!-- main end -->
 <!-- footer start -->
