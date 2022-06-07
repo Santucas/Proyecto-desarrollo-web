@@ -34,9 +34,11 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 2.5rem;
+    line-height: normal;
 }
 .header__logo {
     width: 66.6%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .header__logo img {
     max-width: 200px;
@@ -50,6 +52,8 @@ ul {
     display: flex;
     justify-content: space-evenly;
     font-size: 1.4em;
+    padding-left: 0rem;
+    margin-bottom: 0rem;
 }
 .header__nav ul li a {
     color: white;
@@ -72,9 +76,17 @@ footer {
 .footer__contact {
     width: 50%;
     font-size: 1.8em;
+    color: black;
+    font-family: 'Jaldi', sans-serif;
+    line-height: normal;
 }
 .footer__contact h2 {
     font-size: 1em;
+    margin: 0;
+    font-weight: bold;
+}
+.footer__contact p {
+    margin: 0;
 }
 .footer__contact a img {
     width: 4rem;
@@ -96,7 +108,7 @@ footer {
     flex-direction: column;
     gap: 20rem;
 }
-.home__text{
+.home__text {
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -110,12 +122,18 @@ footer {
     font-family: 'Roboto Flex', sans-serif;
     text-align: center;
     text-decoration-line: underline;
-}
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    line-height: normal;
+} 
 .home__text p {
     font-family: 'Roboto Flex', sans-serif;
     text-align: center;
     color: rgb(14, 14, 14);
-}
+    line-height: normal;
+    margin: 0;
+} 
 .tips {
     display: flex;
     flex-direction: column;
@@ -126,6 +144,10 @@ footer {
     text-align: center;
     text-decoration-line: underline;
     font-size: 5em;
+    margin: 0;
+    font-weight: 700;
+    line-height: normal;
+    color: black;
 }
 .tips__articles {
     display: flex;
@@ -141,6 +163,9 @@ footer {
     text-align: left;
     font-family: 'Roboto Flex', sans-serif;
     padding: 2rem;
+    margin: 0;
+    line-height: normal;
+
 }
 .tips__text--right {
     width: 50%;
@@ -154,7 +179,9 @@ footer {
 }
 
 /* PRODUCTS STYLES */
-
+.products__articles img {
+    width: 30rem;
+}
 /* SERVICES STYLES */
 .services {
     margin: 100px 0px 100px;
@@ -193,6 +220,8 @@ footer {
     font-family: 'Yeseva One', cursive;
     text-decoration-line: underline;
     font-size: 4em;
+    margin: 0;
+    color: black;
 }
 .gallery__container {
     background-color: rgba(143, 45, 86, .7);
@@ -219,16 +248,20 @@ footer {
 
 /* CONTACT STYLES */
 .contact__header {
-    background-color: #8F2D56;
-    margin: 50px 0px 50px 0px;
-    padding: 50px 0px 50px 0px;
-    text-align: center;
+    background-color: rgba(143, 45, 86, 1 );
+    height: 20rem;
+    margin: 8rem 0;
+    color: white;
+    transition: all 0.4s;
 }
-.contact__text {
-    display: inline-block;
+.contact__header:hover {
+    height: 23rem;
 }
-.contact__form{
-    display: inline-block;
+.contact__header p {
+    margin-bottom: 0rem;
+}
+.contact__header h1 {
+    margin-bottom: 0rem;
 }
 
 /* ANIMATIONS */
@@ -366,5 +399,9 @@ footer {
         gap: 3rem;
         border-radius: .75rem;
     }
+    /* CONTACT */
+    .contact__header {
+        height: 10rem;
+        margin: 4rem 0;
+    }
 }
-
