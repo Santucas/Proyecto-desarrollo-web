@@ -1,0 +1,26 @@
+{
+  "name": "desarrollo-web---coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-scss": "node-sass --include-path scss scss/index.scss css/translated.css",
+    "watch-scss": "nodemon -e scss -x \"npm run build-scss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santucas/Proyecto-desarrollo-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santucas/Proyecto-desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/Santucas/Proyecto-desarrollo-web#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
