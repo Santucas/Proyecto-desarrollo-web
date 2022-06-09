@@ -204,12 +204,12 @@ footer {
       padding: 2rem;
       border-radius: 1rem;
       font-size: 2em; }
-  .tips {
-    gap: 6rem; }
-    .tips__title {
-      font-size: 3.4em; }
-    .tips__articles {
-      border-radius: 1rem; } }
+    .home .tips {
+      gap: 6rem; }
+      .home .tips__title {
+        font-size: 3.4em; }
+      .home .tips__articles {
+        border-radius: 1rem; } }
 
 /* RESPONSIVE MOBILE VERTICAL */
 @media screen and (max-width: 479px) {
@@ -220,23 +220,23 @@ footer {
       gap: 1.5rem;
       margin: 0rem 0rem;
       padding: 1.5rem; }
-  .tips {
-    gap: 4rem; }
-    .tips__articles {
-      flex-direction: column;
-      font-size: 2em;
-      gap: 0rem; }
-    .tips__text {
-      width: 100%;
-      padding: 2rem;
-      text-align: center; }
-      .tips__text--right {
-        text-align: center;
+    .home .tips {
+      gap: 4rem; }
+      .home .tips__articles {
+        flex-direction: column;
+        font-size: 2em;
+        gap: 0rem; }
+      .home .tips__text {
         width: 100%;
-        padding: 2rem; }
-    .tips__img {
-      width: 50%;
-      padding: 1rem; } }
+        padding: 2rem;
+        text-align: center; }
+        .home .tips__text--right {
+          text-align: center;
+          width: 100%;
+          padding: 2rem; }
+      .home .tips__img {
+        width: 50%;
+        padding: 1rem; } }
 
 /* CONTACT STYLES */
 .contact__header {
