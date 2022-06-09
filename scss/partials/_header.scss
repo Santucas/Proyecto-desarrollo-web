@@ -1,0 +1,63 @@
+/* HEADER STYLES */
+.header {
+    background-color:#4D3B5B ; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+    line-height: normal;
+
+    &__logo {
+        width: 66.6%;
+        font-family: 'Times New Roman', Times, serif;
+        img {
+            max-width: 200px;
+        }
+    }
+    &__nav {
+        font-family: 'Montserrat', sans-serif;
+        width: 33.3%;
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 1.4em;
+            padding-left: 0rem;
+            margin-bottom: 0rem;
+            li a {
+                color: white;
+                border-bottom: 2px solid #4D3B5B;
+                transition: all .4s;
+                &:hover {
+                    color: #EAD9E1;
+                    border-bottom-color: #EAD9E1;
+                }
+            }
+        }
+    }
+}
+
+/* RESPONSIVE MOBILE HORIZONTAL */
+@media screen and (max-width:599px) {
+    .header {
+        padding: 1rem;
+        &__logo {
+            width: 40%;
+            img {
+               width: 100px;
+           }
+        }
+        &__nav {
+            width: 40%;
+            ul{
+                font-size: .8em;
+            }
+        }
+    }
+}
+
+/* RESPONSIVE MOBILE VERTICAL */
+@media screen and (max-width:479px) {
+    .header__nav {
+        width: 60%;
+    }
+}

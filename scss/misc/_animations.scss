@@ -1,0 +1,7 @@
+/* ANIMATIONS */
+@keyframes rightSpin {
+    0% {transform: rotateZ(0deg);}
+    50% {transform: rotate(360deg);}
+    100% {transform: rotate(360deg);}
+
+}

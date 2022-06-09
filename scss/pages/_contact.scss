@@ -1,0 +1,26 @@
+/* CONTACT STYLES */
+.contact__header {
+    background-color: rgba(143, 45, 86, 1 );
+    height: 20rem;
+    margin: 8rem 0;
+    color: white;
+    transition: all 0.4s;
+    &:hover {
+        height: 23rem;
+    }
+    p {
+        margin-bottom: 0rem;
+    }
+    h1 {
+        margin-bottom: 0rem;
+    }
+}
+
+/* RESPONSIVE MOBILE VERTICAL */
+@media screen and (max-width:479px) {
+    /* CONTACT */
+    .contact__header {
+        height: 10rem;
+        margin: 4rem 0;
+    }
+}

@@ -1,0 +1,25 @@
+/* SERVICES STYLES */
+.services {
+    margin: 100px 0px 100px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    &__articles {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 40%;
+        img {
+            width: 50%;
+        }
+    }
+}
+
