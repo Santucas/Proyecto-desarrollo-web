@@ -61,10 +61,8 @@
             margin: 0;
             line-height: normal;
             &--right {
-                width: 50%;
+                @extend .tips__text;
                 text-align: right;
-                font-family: 'Roboto Flex', sans-serif;
-                padding: 2rem;
             }
         }
         &__img {
@@ -123,9 +121,9 @@
                 padding: 2rem;
                 text-align: center;
                 &--right {
-                    text-align: center;
                     width: 100%;
                     padding: 2rem;
+                    text-align: center;
                 }
             }
             &__img {

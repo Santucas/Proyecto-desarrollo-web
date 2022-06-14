@@ -175,7 +175,7 @@ footer {
       font-size: 2.7em;
       background-color: rgba(77, 59, 91, 0.7);
       border-radius: 2rem; }
-    .home .tips__text {
+    .home .tips__text, .home .tips__text--right {
       width: 50%;
       text-align: left;
       font-family: 'Roboto Flex', sans-serif;
@@ -183,10 +183,7 @@ footer {
       margin: 0;
       line-height: normal; }
       .home .tips__text--right {
-        width: 50%;
-        text-align: right;
-        font-family: 'Roboto Flex', sans-serif;
-        padding: 2rem; }
+        text-align: right; }
     .home .tips__img {
       width: 35%;
       padding: 2rem; }
@@ -226,14 +223,14 @@ footer {
         flex-direction: column;
         font-size: 2em;
         gap: 0rem; }
-      .home .tips__text {
+      .home .tips__text, .home .tips__text--right {
         width: 100%;
         padding: 2rem;
         text-align: center; }
         .home .tips__text--right {
-          text-align: center;
           width: 100%;
-          padding: 2rem; }
+          padding: 2rem;
+          text-align: center; }
       .home .tips__img {
         width: 50%;
         padding: 1rem; } }
