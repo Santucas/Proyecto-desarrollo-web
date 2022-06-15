@@ -9,7 +9,7 @@ footer {
         width: 50%;
         font-size: 1.8em;
         color: black;
-        font-family: 'Jaldi', sans-serif;
+        font-family: map-get($fonts, tertiary);
         line-height: normal;
         h2 {
             font-size: 1em;

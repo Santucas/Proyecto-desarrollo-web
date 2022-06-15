@@ -44,11 +44,11 @@ ul {
   line-height: normal; }
   .header__logo {
     width: 66.6%;
-    font-family: 'Times New Roman', Times, serif; }
+    font-family: "Times New Roman"; }
     .header__logo img {
       max-width: 200px; }
   .header__nav {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat";
     width: 33.3%; }
     .header__nav ul {
       display: flex;
@@ -92,7 +92,7 @@ footer {
     width: 50%;
     font-size: 1.8em;
     color: black;
-    font-family: 'Jaldi', sans-serif;
+    font-family: "Jaldi";
     line-height: normal; }
     footer .footer__contact h2 {
       font-size: 1em;
@@ -130,18 +130,22 @@ footer {
   margin: 10rem 5rem;
   display: flex;
   flex-direction: column;
-  gap: 20rem; }
+  gap: 20rem;
+  justify-content: flex-start;
+  align-items: stretch; }
   .home__text {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    justify-content: flex-start;
+    align-items: stretch;
     margin: 0rem 15rem 0rem 15rem;
     padding: 5rem;
     background-color: #8f2d56;
     border-radius: 2rem;
     font-size: 2em; }
     .home__text h1 {
-      font-family: 'Roboto Flex', sans-serif;
+      font-family: "Roboto Flex";
       text-align: center;
       text-decoration-line: underline;
       margin: 0;
@@ -149,7 +153,7 @@ footer {
       color: black;
       line-height: normal; }
     .home__text p {
-      font-family: 'Roboto Flex', sans-serif;
+      font-family: "Roboto Flex";
       text-align: center;
       color: #0e0e0e;
       line-height: normal;
@@ -157,9 +161,11 @@ footer {
   .home .tips {
     display: flex;
     flex-direction: column;
-    gap: 12rem; }
+    gap: 12rem;
+    justify-content: flex-start;
+    align-items: stretch; }
     .home .tips__title {
-      font-family: 'Yeseva One', cursive;
+      font-family: "Yeseva One";
       text-align: center;
       text-decoration-line: underline;
       font-size: 5em;
@@ -170,6 +176,7 @@ footer {
     .home .tips__articles {
       display: flex;
       flex-direction: row;
+      gap: normal;
       justify-content: space-around;
       align-items: center;
       font-size: 2.7em;
@@ -178,7 +185,7 @@ footer {
     .home .tips__text, .home .tips__text--right {
       width: 50%;
       text-align: left;
-      font-family: 'Roboto Flex', sans-serif;
+      font-family: "Roboto Flex";
       padding: 2rem;
       margin: 0;
       line-height: normal; }
@@ -264,7 +271,7 @@ footer {
   gap: 2rem; }
   .gallery__title {
     text-align: center;
-    font-family: 'Yeseva One', cursive;
+    font-family: "Yeseva One";
     text-decoration-line: underline;
     font-size: 4em;
     margin: 0;

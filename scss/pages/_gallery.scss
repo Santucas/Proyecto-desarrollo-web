@@ -6,7 +6,7 @@
     gap: 2rem;
     &__title {
         text-align: center;
-        font-family: 'Yeseva One', cursive;
+        font-family: map-get($fonts, secondary);
         text-decoration-line: underline;
         font-size: 4em;
         margin: 0;
