@@ -1,0 +1,19 @@
+-Agregué estas keywords:ALISADOS, BAÑOS DE KERATINA, BOTOX, ALISADOS 3D, ESTILISTA, PEINADOS, PRODUCTOS, TRATAMIENTOS , CREMAS, MATIZADOR, CUIDADO CAPILAR, HAIRSTYLES, HAIR SALON, SALON DE BELLEZA, HAIR TREATMENTS.
+
+-Agregué las siguientes descripciones:
+index:"En Monica Pelcot alisados nos encargamos de que tu pelo luzca en su máximo esplendor, aplicando tratamientos que lo van a mantener hidratado y brilloso con las mejores y mas seguras técnicas"
+contact:"Tratar tu cabello para que tenga el brillo y la suavidad que siempre quisiste nunca fue tan facil! Simplemente completá el siguiente formulario y en breve nos pondremos en contacto!"
+gallery:"Recorre nuestra galería y explora entre todos los tratamientos realizados previamente para dar con el que mas te guste"
+products:"Probá nuestros mágicos productos y enamorate de la simpleza y efectividad que tendrán para mantener tu cabello como siempre quisiste"
+services:"En Monica Pelcot alisados disponemos de varios tipos de tratamientos, navegá entre ellos para decidir cual es el mas adecuado para vos!"
+
+-Cambié estos títulos: 
+Monica Pelcot alisados - Home
+Monica Pelcot alisados - Contacto
+Monica Pelcot alisados - Galería
+Monica Pelcot alisados - Productos
+Monica Pelcot alisados - Servicios
+
+-Las imagenes no las optimizé procesandolas a travez de figma ya que eran bastante livianas e incluso se exportaban de figma mas pesadas que antes. 
+
+-Descargué e incluí un sitemap en la carpeta donde se encuentran los archivos
