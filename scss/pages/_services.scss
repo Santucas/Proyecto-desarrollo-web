@@ -1,25 +1,44 @@
 /* SERVICES STYLES */
 .services {
+    @include flex(column, 10rem, space-evenly, stretch);
     margin: 100px 0px 100px;
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     div{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: space-evenly;
+        @include flex(row, 14rem, space-evenly, stretch);
+            width: 100%;
     }
     &__articles {
-        display: flex;
-        flex-direction: column;
+        @include flex(column, 1.5rem, flex-start, center);
         text-align: center;
-        align-items: center;
-        width: 40%;
+        width: 35%;
+        padding: 2.2rem;
+        background-color: rgba(143, 45, 86, 1);
+        border-radius: 1.4rem;
         img {
-            width: 50%;
+            width: 100%;
+            border-radius: 0.7rem;
+        }
+        p {
+            width: 100%;
+            font-family: map-get($fonts, primary);
+            font-size: 1.6em;
+        }
+        h2 {
+            font-family: map-get($fonts, primary);
+            font-weight: bold;
         }
     }
+}
+
+/* RESPONSIVE MOBILE HORIZONTAL */
+@media screen and (max-width:599px) {
+.services {
+    margin: 50px 0px 50px;
+    div {
+        @include flex(column, 4rem, center, center);        
+    }
+    &__articles {
+        width: 80%;
+    }
+}
 }
 
