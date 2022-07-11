@@ -21,6 +21,7 @@
             width: 100%;
             font-family: map-get($fonts, primary);
             font-size: 1.6em;
+            font-weight: bold;
         }
         h2 {
             font-family: map-get($fonts, primary);
@@ -29,7 +30,7 @@
     }
 }
 
-/* RESPONSIVE MOBILE HORIZONTAL */
+/* RESPONSIVE MOBILE */
 @media screen and (max-width:599px) {
 .services {
     margin: 50px 0px 50px;

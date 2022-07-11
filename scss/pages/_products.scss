@@ -27,6 +27,7 @@ main.products{
                     font-size: 1.4em;
                     justify-self: center;
                     font-family: map-get($fonts, primary);
+                    font-weight: bold;
                 }
             }
         }
@@ -34,7 +35,7 @@ main.products{
 }
 
 
-/* RESPONSIVE MOBILE HORIZONTAL */
+/* RESPONSIVE MOBILE */
 @media screen and (max-width:599px) {
     main.products {
         section {

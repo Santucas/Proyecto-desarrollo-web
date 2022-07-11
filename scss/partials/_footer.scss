@@ -9,15 +9,17 @@ footer {
         width: 50%;
         font-size: 1.8em;
         color: black;
-        font-family: map-get($fonts, tertiary);
+        font-family: map-get($fonts, primary);
         line-height: normal;
         h2 {
             font-size: 1em;
             margin: 0;
             font-weight: bold;
+            margin-bottom: 1rem;
         }
         p {
             margin: 0; 
+            margin-bottom: 1rem;
         }
         a img {
             width: 4rem;
@@ -35,7 +37,7 @@ footer {
         }
 }
 
-/* RESPONSIVE MOBILE HORIZONTAL */
+/* RESPONSIVE MOBILE */
 @media screen and (max-width:599px) {
     footer {
         font-size: .8em;
@@ -43,7 +45,10 @@ footer {
         .footer__contact {
             font-size: 1.4em;
             h2 {
-                font-size: 1em;
+                font-size: .8em;
+            }
+            p {
+                font-size: .8em;
             }
             a img {
                 width: 1.8rem;

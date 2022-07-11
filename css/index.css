@@ -43,8 +43,7 @@ ul {
   padding: 2.5rem;
   line-height: normal; }
   .header__logo {
-    width: 66.6%;
-    font-family: "Times New Roman"; }
+    width: 66.6%; }
     .header__logo img {
       max-width: 200px; }
   .header__nav {
@@ -92,14 +91,16 @@ footer {
     width: 50%;
     font-size: 1.8em;
     color: black;
-    font-family: "Jaldi";
+    font-family: "Roboto Flex";
     line-height: normal; }
     footer .footer__contact h2 {
       font-size: 1em;
       margin: 0;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-bottom: 1rem; }
     footer .footer__contact p {
-      margin: 0; }
+      margin: 0;
+      margin-bottom: 1rem; }
     footer .footer__contact a img {
       width: 4rem; }
   footer .upArrow {
@@ -111,7 +112,7 @@ footer {
     footer .upArrow a img {
       width: 100%; }
 
-/* RESPONSIVE MOBILE HORIZONTAL */
+/* RESPONSIVE MOBILE */
 @media screen and (max-width: 599px) {
   footer {
     font-size: .8em;
@@ -119,7 +120,9 @@ footer {
     footer .footer__contact {
       font-size: 1.4em; }
       footer .footer__contact h2 {
-        font-size: 1em; }
+        font-size: .8em; }
+      footer .footer__contact p {
+        font-size: .8em; }
       footer .footer__contact a img {
         width: 1.8rem; }
     footer .upArrow {
@@ -256,7 +259,7 @@ footer {
   .contact__header h1 {
     margin-bottom: 0rem; }
 
-/* RESPONSIVE MOBILE VERTICAL */
+/* RESPONSIVE MOBILE */
 @media screen and (max-width: 479px) {
   /* CONTACT */
   .contact__header {
@@ -354,9 +357,10 @@ main.products section div {
       height: 10rem;
       font-size: 1.4em;
       justify-self: center;
-      font-family: "Roboto Flex"; }
+      font-family: "Roboto Flex";
+      font-weight: bold; }
 
-/* RESPONSIVE MOBILE HORIZONTAL */
+/* RESPONSIVE MOBILE */
 @media screen and (max-width: 599px) {
   main.products section div {
     flex-direction: column; }
@@ -398,12 +402,13 @@ main.products section div {
     .services__articles p {
       width: 100%;
       font-family: "Roboto Flex";
-      font-size: 1.6em; }
+      font-size: 1.6em;
+      font-weight: bold; }
     .services__articles h2 {
       font-family: "Roboto Flex";
       font-weight: bold; }
 
-/* RESPONSIVE MOBILE HORIZONTAL */
+/* RESPONSIVE MOBILE */
 @media screen and (max-width: 599px) {
   .services {
     margin: 50px 0px 50px; }
